@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "brags-global-pressure-washing-elementor": {
+      "type": "http",
+      "url": "https://bragspressurewashing.com/wp-json/elementor/mcp/",
+      "headers": {
+        "Authorization": "Basic ${BRAGS_WP_MCP_AUTH}"
+      }
+    }
+  }
+}
